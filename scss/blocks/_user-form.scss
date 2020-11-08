@@ -1,0 +1,15 @@
+.user-form {
+  &::after {
+    content: "";
+    width: 80%;
+    height: 1.5px;
+    background-color: #ccc;
+    margin: {
+      top: 40px;
+      left: auto;
+      right: auto;
+    }
+
+
+  }
+}

@@ -1,0 +1,12 @@
+.disabled-script-info {
+  display: none;
+}
+
+// .disabled-script-info::selection,.disabled-script-info__js-on-manual::selection {
+//   background-color: #fff;
+//   color: red;
+// }
+
+.page__body--nojs .disabled-script-info {
+  display: block;
+}
