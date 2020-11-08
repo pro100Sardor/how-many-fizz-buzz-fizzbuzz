@@ -1,9 +1,9 @@
 /***********************************************\
 
-1. Formadan va inputlardan kelayotgan qiymatlarni o'zgaruvchilarga olib olish kerak.
-2. Formani by default submit bo'lish xususiyatini to'htatish kerak.
-3. shartga mos algoritm tuzish kerak.
-4. natijani htmlga jo'natib foydalanuvchiga ko'rsatish kerak.
+1. The values coming from the form and the inputs must be taken into account in the variables,
+2. disable the form by default submit feature,
+3. create a conditional algorithm,
+4. the result should be sent to html and shown to the user;
 
 \***********************************************/
 
