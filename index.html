@@ -22,7 +22,7 @@
     <h2 class="text-center mb-5">Nechta Fizz?, nechta Bazz?, nechta FizzBuzz?</h2>
 
     <form class="user-form form-inline justify-content-center mb-5" id="userForm" action="https://echo.htmlacademy.ru" method="GET">
-      <input class="form-control bg-light mr-sm-5 mb-3" id="userNumber" type="number" name="user_number"  step="any" placeholder="Son kiriting" aria-label="butun son kiriting" autofocus required>
+      <input class="form-control bg-light mr-sm-5 mb-3" id="userNumber" type="number" name="user_number"  step="any" placeholder="Son kiriting" aria-label="butun son kiriting" min="1" max="99999" autofocus required>
       <button class="form-control btn btn-dark font-weight-bold mb-3" type="submit">Natijani ko'rsat</button>
     </form>
 
@@ -55,7 +55,7 @@
       </div>
     </div>
 
-    <p class="bg-danger text-white text-center py-4 font-weight-bold text-uppercase rounded d-none" id="wrontValueWarning">iltimos butun son kiriting!!!</p>
+    <p class="bg-danger text-white text-center py-4 font-weight-bold text-uppercase rounded d-none" id="wrontValueWarning">iltimos 99999 gacha bo'lgan natural son kiriting!!!</p>
   </div>
 
   <div class="container bg-danger text-white text-center py-3 px-2 rounded mb-4 disabled-script-info">
@@ -64,6 +64,6 @@
 
   <script src="./js/jquery-3.5.1.min.js"></script>
   <script src="./js/bootstrap.bundle.min.js"></script>
-  <script src="./js/scripts.js"></script>
+  <script src="./js/scripts.min.js"></script>
 </body>
 </html>

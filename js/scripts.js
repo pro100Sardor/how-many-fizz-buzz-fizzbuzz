@@ -17,7 +17,9 @@ elUserForm.addEventListener('submit', function (evt) {
 
   var userNumber = parseInt(elUserNumber.value.trim(), 10);
 
-  if (isNaN(userNumber) || !userNumber) {
+  var fizzBuzzBolmaslikSharti = (isNaN(userNumber) || userNumber === '' || userNumber < 0 || userNumber > 99999);
+
+  if (fizzBuzzBolmaslikSharti) {
     document.querySelector('#resultsContainer').classList.add('d-none');
 
     document.querySelector('#wrontValueWarning').classList.remove('d-none');
