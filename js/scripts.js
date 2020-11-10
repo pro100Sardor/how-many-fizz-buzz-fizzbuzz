@@ -57,17 +57,17 @@ elUserForm.addEventListener('submit', function (evt) {
 
     var elFizzResult = document.querySelector('#fizzResult');
     elFizzResult.querySelector('#fizzQuantity').textContent = fizzNumbers.length;
-    elFizzResult.querySelector('#fizzNumbers').textContent = fizzNumbers;
+    elFizzResult.querySelector('#fizzNumbers').textContent = fizzNumbers.join(', ');
 
 
     var elBuzzResult = document.querySelector('#buzzResult');
     elBuzzResult.querySelector('#buzzQuantity').textContent = buzzNumbers.length;
-    elBuzzResult.querySelector('#buzzNumbers').textContent = buzzNumbers;
+    elBuzzResult.querySelector('#buzzNumbers').textContent = buzzNumbers.join(', ');
 
 
     var elFizzBuzzResult = document.querySelector('#fizzBuzzResult');
     elFizzBuzzResult.querySelector('#fizzBuzzQuantity').textContent = fizzBuzzNumbers.length;
-    elFizzBuzzResult.querySelector('#fizzBuzzNumbers').textContent = fizzBuzzNumbers;
+    elFizzBuzzResult.querySelector('#fizzBuzzNumbers').textContent = fizzBuzzNumbers.join(', ');
 
     elUserNumber.value = "";
   }
